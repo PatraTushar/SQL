@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS persons;
+
+CREATE TABLE persons(
+ID INT IDENTITY(1,1) PRIMARY KEY,
+ names VARCHAR(20) NOT NULL,
+ country VARCHAR(30) NOT NULL,
+ score INT
+ )
+
+ SELECT * FROM persons
+

@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS TableA;
+
+
+CREATE TABLE TableA(
+ID INT IDENTITY(1,1) PRIMARY KEY,
+student_name VARCHAR(50) NOT NULL,
+birth_date DATE,
+phone VARCHAR(15) NOT NULL
+)
+
+
+SELECT * FROM  TableA
+
+
