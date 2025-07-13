@@ -7,5 +7,5 @@ NULL,
 'UNKNOWN'
 FROM customers
 
-SELECT DISTINCT student_name,birth_date,phone  FROM Students
+SELECT  student_name,birth_date,phone  FROM Students
 
